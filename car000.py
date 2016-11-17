@@ -30,4 +30,3 @@ while True:
         break  ##ثم الايقاف ولكنه في الحقيقة يتوقف عندما ينتهي الفيديو
 
 cv2.destroyAllWindows() ##تحرير المساحة المستخدمة من قبل ال cv2
-#########https://www.facebook.com/atlantes.land######_mohamed Emaed##
