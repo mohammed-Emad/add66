@@ -14,7 +14,7 @@ car_cascade = cv2.CascadeClassifier(cascade_src)# إسناد ملف الوسوم
 while True:
     ret, img = cam11.read() # cam القراءة من ال 
     
-    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) ##تحويل الي الابيض والاسود
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) ##تحويل الي الرمادي
     
     cars = car_cascade.detectMultiScale(gray, 1.2, 1) ##البحث عن السيارات وإسناد القيم إلي المصفوفة cars
 ##############################################
